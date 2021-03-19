@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Gilroy;
+	box-sizing: border-box;
+	background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+img {
+	width: 100%;
+}
+header {
+
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+.header-wrap {
+	max-width: 1100px;
+	width: 100%;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+nav {
+	width: 430px;
+	display: flex;
+	font-size: 12px;
+	color: #B5B5B5;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.logo {
+	width: 36px;
+}
+.nav {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+.buttons {
+	width: 245px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	font-family: Rubik;
+}
+.one-btn {
+	text-align: center;
+	text-transform: uppercase;
+	color: #F2994A;
+	width: 115px;
+	height: 36px;
+	font-weight: 500;
+	border: 1px solid #F2994A;
+	line-height: 36px;
+	border-radius: 4px;
+}
+.two-btn {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: orange;
+	font-weight: 500;
+	border: solid 1px #F2994A;
+	width: 115px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 4px;
+}
+.section-wrap {
+	width: 1270px;
+	display: flex;
+	margin-left: auto;
+	margin-top: 105px;
+}
+.text-rod {
+	width: 540px;
+}
+.text-one {
+	color: #99EFD0;
+	width: 530px;
+	font-size: 44px;
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.text-two {
+	color: #8476AA;
+	font-size: 18px;
+	font-family: Gilroy;
+	font-weight: 600;
+	width: 468px;
+	margin-top: 20px;
+}
+.btn-three {
+	text-align: center;
+	text-transform: uppercase;
+	color: #F2994A;
+	width: 157px;
+	height: 46px;
+	font-weight: 500;
+	border: 1px solid #F2994A;
+	line-height: 46px;
+	border-radius: 4px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	font-size: 12px;
+	margin-left: 177px;
+}
+.video {
+	width: 540px;
+	display: flex;
+	justify-content: space-between;
+}
+.video-desc {
+	color: #8476AA;
+	font-size: 16px;
+	width: 380px;
+	font-family: Rubik;
+}
+.video .img {
+	width: 140px;
+	height: 80px;
+}
+.section-img img{
+	width: 723px;
+}
+.content {
+	background-image: url("img/Group2.png");
+	background-size: cover;
+	opacity: .3;
+}
+.content-wrap {
+	display: flex;
+	width: 975px;
+	justify-content: space-between;
+	margin: auto;
+	align-items: center;
+}
+.content-wrap img {
+	width: 117px;
+	
+}
