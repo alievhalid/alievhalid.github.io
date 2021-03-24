@@ -33,7 +33,7 @@ ul {
 	justify-content: space-between;
 	padding-top: 50px;
 }
-nav {
+header nav {
 	width: 430px;
 	display: flex;
 	font-size: 12px;
@@ -45,10 +45,25 @@ nav {
 .logo {
 	width: 36px;
 }
+nav a:hover {
+	color: #fff;
+}
+.one-btn:hover {
+	background-color: orange;
+	color: #fff;
+	transition: .3s;
+}
+.btn-three:hover {
+	background-color: orange;
+	color: #fff;
+	transition: .3s;
+}
 .nav {
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
+	font-family: Gilroy;
+	font-weight: 600;
 }
 .buttons {
 	width: 245px;
@@ -139,9 +154,7 @@ nav {
 	width: 723px;
 }
 .content {
-	background-image: url("img/Group2.png");
-	background-size: cover;
-	opacity: .3;
+
 }
 .content-wrap {
 	display: flex;
@@ -152,5 +165,65 @@ nav {
 }
 .content-wrap img {
 	width: 117px;
+	opacity: .3;
 	
+}
+.features {
+}
+.features-one-text {
+	width: 300px;
+	font-size: 42px;
+	font-weight: bold;
+	color: #99EFD0;
+	font-family: Inter;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+}
+.features-two-text {
+	width: 765px;
+	font-size: 16px;
+	font-family: Gilroy;
+	font-weight: 600;
+	color: #8476AA;
+	margin: auto;
+	text-align: center;
+	margin-top: 13px;
+}
+.features-rod {
+	width: 997px;
+	display: flex;
+	margin: auto;
+	margin-top: 50px;
+	flex-wrap: wrap;
+}
+.box2 {
+	width: 300px;
+	height: 105px;
+	margin: auto;
+}
+
+.features-title {
+	width: 300px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Gilroy;
+	color: #99EFD0;
+	display: flex;
+	justify-content: center;
+}
+.features-text {
+	width: 247px;
+	margin: auto;
+	font-size: 14px;
+	color: #8476AA;
+	font-family: Gilroy;
+	font-weight: 600;
+	margin-top: 10px;
+	opacity: .3;
+	text-align: center;
+}
+.box2 img {
+	width: 24px;
+	height: 24px;
 }
