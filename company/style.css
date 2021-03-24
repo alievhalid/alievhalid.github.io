@@ -47,16 +47,19 @@ header nav {
 }
 nav a:hover {
 	color: #fff;
+	box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
 }
 .one-btn:hover {
 	background-color: orange;
 	color: #fff;
 	transition: .3s;
+	box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
 }
 .btn-three:hover {
 	background-color: orange;
 	color: #fff;
 	transition: .3s;
+	box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
 }
 .nav {
 	width: 350px;
@@ -168,7 +171,7 @@ nav a:hover {
 	opacity: .3;
 	
 }
-.features {
+.features-wrap {
 }
 .features-one-text {
 	width: 300px;
@@ -189,6 +192,7 @@ nav a:hover {
 	margin: auto;
 	text-align: center;
 	margin-top: 13px;
+	opacity: .5;
 }
 .features-rod {
 	width: 997px;
@@ -196,6 +200,9 @@ nav a:hover {
 	margin: auto;
 	margin-top: 50px;
 	flex-wrap: wrap;
+	border: solid 3px #8476AA;
+	border-radius: 5px;
+	padding: 30px;
 }
 .box2 {
 	width: 300px;
@@ -209,21 +216,73 @@ nav a:hover {
 	font-weight: bold;
 	font-family: Gilroy;
 	color: #99EFD0;
-	display: flex;
-	justify-content: center;
+	margin: auto;
 }
 .features-text {
 	width: 247px;
-	margin: auto;
 	font-size: 14px;
 	color: #8476AA;
 	font-family: Gilroy;
 	font-weight: 600;
 	margin-top: 10px;
 	opacity: .3;
-	text-align: center;
 }
 .box2 img {
-	width: 24px;
+	width: 0px;
 	height: 24px;
+}
+.business {
+	margin-top: 150px;
+}
+.business-wrap {
+	width: 925px;
+	height: 440px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+.business-text-one {
+	width: 470px;
+	font-size: 42px;
+	font-family: Inter;
+	font-weight: bold;
+	color: #99EFD0;
+}
+.business-desc {
+	width: 470px;
+	margin-top: 60px;
+}
+.orange-text {
+	color: orange;
+}
+.business-text-two {
+	width: 470px;
+	color: #8476AA;
+	font-family: Gilroy;
+	font-weight: 600;
+	margin-top: 32px;
+}
+.business-btn {
+	width: 155px;
+	height: 48px;
+	color: #fff;
+	border: solid 1px orange;
+	border-radius: 5px;
+	background-color: orange;
+	text-align: center;
+	font-weight: 500;
+	font-size: 12px;
+	font-family: Rubik;
+	line-height: 48px;
+	text-transform: uppercase;
+	margin-top: 43px;
+}
+.business-btn:hover {
+	box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+	transition: .2s;
+}
+.business-img  {
+	width: 440px;
+	opacity: .8;
+	height: 400px;
 }
